@@ -4,5 +4,9 @@
   <li>First download the zip and extract it.</li>
   <li>Also need python installed on computer</li>
   <li>Then open folder in terminal or command prompt</li>
-  li>Then type in terminal -->python3 atm.py<--</li>  
+  <li>Then type in terminal -->python3 atm.py<--</li>  
+  <li>File execution look like this</li>  
 <ul>
+  
+  
+  
