@@ -11,9 +11,10 @@
 <img align="center"  src = "IG/IG1.png"><br><br>
   
 <h2 align="center">Features:</h2>
-
-Sign In
-Account Statement
-Withdraw amount
-Lodge amount
-Change Pin
+<ul>
+<li>Sign In</li>
+<li>Account Statement</li>
+<li>Withdraw amount</li>
+<li>Lodge amount</li>
+<li>Change Pin</li>
+</ul>
