@@ -7,6 +7,8 @@
   <li>Then type in terminal -->python3 atm.py<--</li>  
   <li>File execution look like this</li>  
 <ul>
+  <br>
+  <br>
 <img align="center"  src = "IG/IG2.png"><br><br>
 <img align="center"  src = "IG/IG1.png"><br><br>
   
