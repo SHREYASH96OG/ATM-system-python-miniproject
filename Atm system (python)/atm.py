@@ -112,7 +112,7 @@ while True:
 	if response == 's':
 		print('---------------------------------------------')
 		print('*********************************************')
-		print(str.capitalize(users[n]), 'YOU HAVE ', amounts[n],'EURO ON YOUR ACCOUNT.')
+		print(str.capitalize(users[n]), 'YOU HAVE ', amounts[n],'₹ ON YOUR ACCOUNT.')
 		print('*********************************************')
 		print('---------------------------------------------')
 		
@@ -125,7 +125,7 @@ while True:
 		if cash_out%10 != 0:
 			print('------------------------------------------------------')
 			print('******************************************************')
-			print('AMOUNT YOU WANT TO WITHDRAW MUST TO MATCH 10 EURO NOTES')
+			print('AMOUNT YOU WANT TO WITHDRAW MUST TO MATCH 10 ₹ NOTES')
 			print('******************************************************')
 			print('------------------------------------------------------')
 		elif cash_out > amounts[n]:
@@ -138,7 +138,7 @@ while True:
 			amounts[n] = amounts[n] - cash_out
 			print('-----------------------------------')
 			print('***********************************')
-			print('YOUR NEW BALANCE IS: ', amounts[n], 'EURO')
+			print('YOUR NEW BALANCE IS: ', amounts[n], '₹')
 			print('***********************************')
 			print('-----------------------------------')
 			
@@ -153,14 +153,14 @@ while True:
 		if cash_in%10 != 0:
 			print('----------------------------------------------------')
 			print('****************************************************')
-			print('AMOUNT YOU WANT TO LODGE MUST TO MATCH 10 EURO NOTES')
+			print('AMOUNT YOU WANT TO LODGE MUST TO MATCH 10 ₹ NOTES')
 			print('****************************************************')
 			print('----------------------------------------------------')
 		else:
 			amounts[n] = amounts[n] + cash_in
 			print('----------------------------------------')
 			print('****************************************')
-			print('YOUR NEW BALANCE IS: ', amounts[n], 'EURO')
+			print('YOUR NEW BALANCE IS: ', amounts[n], '₹')
 			print('****************************************')
 			print('----------------------------------------')
 	elif response == 'p':
